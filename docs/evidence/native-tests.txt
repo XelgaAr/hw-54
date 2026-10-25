@@ -1,0 +1,152 @@
+
+> nodejs-hw01-tests@1.0.0 test:logic
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: NODE_ENV="development"
+ok 1 - NODE_ENV="development"
+  ---
+  duration_ms: 1.868716
+  type: 'test'
+  ...
+# Subtest: NODE_ENV="production"
+ok 2 - NODE_ENV="production"
+  ---
+  duration_ms: 0.336777
+  type: 'test'
+  ...
+# Subtest: NODE_ENV="test"
+ok 3 - NODE_ENV="test"
+  ---
+  duration_ms: 0.356748
+  type: 'test'
+  ...
+# Subtest: NODE_ENV="Development"
+ok 4 - NODE_ENV="Development"
+  ---
+  duration_ms: 0.432872
+  type: 'test'
+  ...
+# Subtest: NODE_ENV=""
+ok 5 - NODE_ENV=""
+  ---
+  duration_ms: 0.255585
+  type: 'test'
+  ...
+# Subtest: unset environment is not debug mode
+ok 6 - unset environment is not debug mode
+  ---
+  duration_ms: 0.183296
+  type: 'test'
+  ...
+# Subtest: base64: multiple arguments are colon-delimited and logged
+ok 7 - base64: multiple arguments are colon-delimited and logged
+  ---
+  duration_ms: 0.271379
+  type: 'test'
+  ...
+# Subtest: base64: Unicode round trip
+ok 8 - base64: Unicode round trip
+  ---
+  duration_ms: 0.35819
+  type: 'test'
+  ...
+# Subtest: base64: empty input round trip
+ok 9 - base64: empty input round trip
+  ---
+  duration_ms: 0.293802
+  type: 'test'
+  ...
+# Subtest: base64: delimiters are not incorrectly unescaped
+ok 10 - base64: delimiters are not incorrectly unescaped
+  ---
+  duration_ms: 0.27167
+  type: 'test'
+  ...
+# Subtest: base64: safe decoder rejects non-string data
+ok 11 - base64: safe decoder rejects non-string data
+  ---
+  duration_ms: 0.469437
+  type: 'test'
+  ...
+# Subtest: base64: invalid characters are logged and rejected
+ok 12 - base64: invalid characters are logged and rejected
+  ---
+  duration_ms: 0.177588
+  type: 'test'
+  ...
+# Subtest: hex: multiple arguments are colon-delimited and logged
+ok 13 - hex: multiple arguments are colon-delimited and logged
+  ---
+  duration_ms: 0.223878
+  type: 'test'
+  ...
+# Subtest: hex: Unicode round trip
+ok 14 - hex: Unicode round trip
+  ---
+  duration_ms: 0.236857
+  type: 'test'
+  ...
+# Subtest: hex: empty input round trip
+ok 15 - hex: empty input round trip
+  ---
+  duration_ms: 0.136045
+  type: 'test'
+  ...
+# Subtest: hex: delimiters are not incorrectly unescaped
+ok 16 - hex: delimiters are not incorrectly unescaped
+  ---
+  duration_ms: 0.11297
+  type: 'test'
+  ...
+# Subtest: hex: safe decoder rejects non-string data
+ok 17 - hex: safe decoder rejects non-string data
+  ---
+  duration_ms: 0.197818
+  type: 'test'
+  ...
+# Subtest: hex: invalid characters are logged and rejected
+ok 18 - hex: invalid characters are logged and rejected
+  ---
+  duration_ms: 0.115845
+  type: 'test'
+  ...
+# Subtest: base64: padding, unused bits, whitespace and truncation are validated
+ok 19 - base64: padding, unused bits, whitespace and truncation are validated
+  ---
+  duration_ms: 0.519613
+  type: 'test'
+  ...
+# Subtest: base64: each legal padding length is accepted
+ok 20 - base64: each legal padding length is accepted
+  ---
+  duration_ms: 0.23928
+  type: 'test'
+  ...
+# Subtest: hex: uppercase is accepted
+ok 21 - hex: uppercase is accepted
+  ---
+  duration_ms: 0.75648
+  type: 'test'
+  ...
+# Subtest: hex: odd digits, prefix and whitespace are rejected
+ok 22 - hex: odd digits, prefix and whitespace are rejected
+  ---
+  duration_ms: 0.247633
+  type: 'test'
+  ...
+# Subtest: ordinary decoder logs unexpected type errors and rethrows
+ok 23 - ordinary decoder logs unexpected type errors and rethrows
+  ---
+  duration_ms: 0.243948
+  type: 'test'
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 67.862752

@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-10-25T09:06:04.470Z",
+  "node": "v22.16.0",
+  "result": {
+    "modes": {
+      "development": true,
+      "production": false
+    },
+    "values": [
+      "Привіт",
+      "Node.js",
+      "✓"
+    ],
+    "base64": "0J/RgNC40LLRltGCOk5vZGUuanM64pyT",
+    "hex": "d09fd180d0b8d0b2d196d1823a4e6f64652e6a733ae29c93",
+    "decoded": {
+      "base64": "Привіт:Node.js:✓",
+      "hex": "Привіт:Node.js:✓"
+    }
+  },
+  "logs": [
+    {
+      "level": "log",
+      "text": "development"
+    },
+    {
+      "level": "log",
+      "text": "true"
+    },
+    {
+      "level": "log",
+      "text": "production"
+    },
+    {
+      "level": "log",
+      "text": "false"
+    },
+    {
+      "level": "log",
+      "text": "[ 'Привіт', 'Node.js', '✓' ]"
+    },
+    {
+      "level": "log",
+      "text": "[ 'Привіт', 'Node.js', '✓' ]"
+    },
+    {
+      "level": "log",
+      "text": "0J/RgNC40LLRltGCOk5vZGUuanM64pyT"
+    },
+    {
+      "level": "log",
+      "text": "d09fd180d0b8d0b2d196d1823a4e6f64652e6a733ae29c93"
+    },
+    {
+      "level": "log",
+      "text": "Привіт:Node.js:✓"
+    },
+    {
+      "level": "log",
+      "text": "Привіт:Node.js:✓"
+    },
+    {
+      "level": "error",
+      "text": "Invalid base64 string"
+    },
+    {
+      "level": "log",
+      "text": "Ожидаемая проверка: Invalid base64 string"
+    },
+    {
+      "level": "error",
+      "text": "Invalid hex string"
+    },
+    {
+      "level": "log",
+      "text": "Ожидаемая проверка: Invalid hex string"
+    },
+    {
+      "level": "log",
+      "text": "Base64: 0J/RgNC40LLRltGCOk5vZGUuanM64pyT"
+    },
+    {
+      "level": "log",
+      "text": "Hex: d09fd180d0b8d0b2d196d1823a4e6f64652e6a733ae29c93"
+    }
+  ]
+}

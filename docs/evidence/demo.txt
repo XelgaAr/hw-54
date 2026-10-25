@@ -1,0 +1,21 @@
+
+> nodejs-hw01-tests@1.0.0 start
+> node scripts/demo.mjs
+
+NODE_ENV: (не задано)
+undefined
+false
+[ 'Привет, Node.js', '✓', 'UTF-8' ]
+[ 'Привет, Node.js', '✓', 'UTF-8' ]
+Base64: 0J/RgNC40LLQtdGCLCBOb2RlLmpzOuKckzpVVEYtOA==
+Hex: d09fd180d0b8d0b2d0b5d1822c204e6f64652e6a733ae29c933a5554462d38
+0J/RgNC40LLQtdGCLCBOb2RlLmpzOuKckzpVVEYtOA==
+Decoded Base64: Привет, Node.js:✓:UTF-8
+d09fd180d0b8d0b2d0b5d1822c204e6f64652e6a733ae29c933a5554462d38
+Decoded Hex: Привет, Node.js:✓:UTF-8
+Привет, Node.js:✓:UTF-8
+Привет, Node.js:✓:UTF-8
+Ожидаемая ошибка: Invalid base64 string
+Ожидаемая ошибка: Invalid hex string
+Invalid base64 string
+Invalid hex string
